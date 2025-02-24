@@ -9,7 +9,7 @@ function calculateSquares(height, width) {
   let top = 0;
 
   while (height * width > epsilon) {
-    if (width == height) {
+    if (width === height) {
       squares.push({ size: width, top, left });
       break;
     } else if (width < height) {
