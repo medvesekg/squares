@@ -3,7 +3,7 @@ function calculateSquares(height, width) {
     throw new Error("Height and width can't be negative");
   }
 
-  const epsilon = 0.01;
+  const epsilon = 0.00001;
   let squares = [];
   let left = 0;
   let top = 0;
