@@ -56,7 +56,6 @@ describe("calculateSquares", () => {
       { size: 1.25, top: 0, left: 5 },
       { size: 1.25, top: 1.25, left: 5 },
     ]);
-    console.log(squares);
   });
 
   test("throws an error if negative dimensions are passed", () => {
